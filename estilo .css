@@ -48,6 +48,17 @@ header{
 a.header__nav--active{
     background-color: #cbe300;
     color:#0c1014;
-    /* pointer-events: none; */
-    cursor: default;
+    pointer-events: none;
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: #1f262c;
+    padding: 16px;
+    border-radius: 6px;
 }
