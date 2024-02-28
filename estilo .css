@@ -41,7 +41,13 @@ header{
     border-radius: 6px;
 }
 
+.header__nav a:hover{
+    text-decoration:underline
+}
+
 a.header__nav--active{
     background-color: #cbe300;
-    color:#0c1014
+    color:#0c1014;
+    /* pointer-events: none; */
+    cursor: default;
 }
