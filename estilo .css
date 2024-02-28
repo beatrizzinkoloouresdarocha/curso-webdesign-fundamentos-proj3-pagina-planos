@@ -61,4 +61,5 @@ a.header__nav--active{
     background-color: #1f262c;
     padding: 16px;
     border-radius: 6px;
+    box-shadow: 0 5px  12px black;
 }
