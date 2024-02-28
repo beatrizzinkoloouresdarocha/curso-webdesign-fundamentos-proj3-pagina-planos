@@ -53,13 +53,15 @@ body{
     
     .pricing{
         display: flex;
-        gap: 16px;
+        justify-content: space-between; /* Distribui os itens igualmente ao longo do contêiner */
+        flex-wrap: wrap; /* Permite que os itens envolvam para a linha seguinte se não houver espaço suficiente */
     }
     
     .pricing-plan{
         flex: 1;
-        background-color: #1f262c;
-        padding: 16px;
-        border-radius: 6px;
-        box-shadow: 0 5px  12px black;
+        width: calc(33.33% - 20px); /* Define a largura de cada plano de preço, deixando algum espaço entre eles */
+        margin-bottom: 20px; /* Adiciona um espaçamento na parte inferior de cada plano */
+        background-color: black; /* Cor de fundo para distinguir os planos */
+        padding: 20px; /* Adiciona preenchimento ao redor dos planos */
+        box-sizing: border-box; /* Faz com que o preenchimento e a borda sejam contabilizados dentro da largura */
     }
